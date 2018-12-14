@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Great+Vibes|Tangerine');
+
+* {
+	margin: 0;
+	padding : 0;
+	font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+
+body {
+
+	color: black;
+	background: linear-gradient(110deg, #bed4d6 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #aeeef2 70%, #daf0f2 70%);
+}
+
+h1 {
+	text-align: center;
+	margin: 15px 0 0 0;
+	font-size: 35px;
+	font-weight: 400;
+	color: #fff;
+	font-family: 'Charmonman', cursive;
+	/*font-family: 'Great Vibes', cursive;
+	font-family: 'Tangerine', cursive;*/
+
+}
+
+input[type=text] { /*input field*/
+height: 40px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.column {
+	font-size: 2em;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 800px;
+}
+
+
+.row:after { /* Clear floats after columns */
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.row {
+	margin: 5% 20% 5% 30%;
+}
+
+p{
+	margin-top: 10px;
+}
+
+body .faq {
+	background: white;
+}
+
+#container { /* input field + buttons */
+  margin: 3% 40% 2% 40%;
+}
+
+#enter { /* btn */
+	height: 40px;
+	width: 60px;
+
+}
+
+#submit { /* btn */
+  margin: 40px 30px 10px 30px;
+	width: 200px;
+	height: 40px;
+
+}
+
+#inputSentence { /* printed input sentence / line */
+	margin: 10% 30% 10px 0%;
+	word-spacing: 2em;
+	color: #0a5a9b;
+	font-weight: bolder;
+	font-size: 20px;
+	text-align:center;
+}
+
+
+#verse{  /* last column / rhyme */
+	margin-top: 30px;
+}
+
+
+footer img {
+	margin-left: 40%;
+	margin-right: 30%;
+	width: 25%;
+}
