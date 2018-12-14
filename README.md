@@ -7,4 +7,4 @@ Open in browser:
 https://ladyfrommars.github.io/rhyme-playground/
 
 How it works:
-
+https://ladyfrommars.github.io/rhyme-playground/FAQ.html
